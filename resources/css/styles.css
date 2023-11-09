@@ -1,0 +1,144 @@
+/* Body */
+
+body {
+    margin: 0;
+    /*background-color: red;*/
+}
+
+/* Header */
+
+    /* Header-bar */
+.header-bar {
+    display: flex;
+    background-color: rgb(244,194,194);
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 15px 5px;
+}
+
+.tagline {
+    color: white;
+    text-align: center;
+    font-size:larger;
+}
+    /* End Header-bar */
+
+    /* Nav-icons */ 
+.nav-icons {
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+}
+
+.nav-icons ul {
+    margin: 0;
+    background-color: rgb(244,194,194);
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.nav-icons ul li {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.nav-icons ul li a img {
+    width: 65px;
+    height: 65px;
+}
+    /* End Nav-icons */
+
+    /* Banner */
+.banner {
+    position: relative;
+    height: 746px;
+    width: auto;
+    background: url("../images/banner_wallpaper.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    top: 280px;
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white
+}
+    /* End Banner */
+
+/* End Header */
+
+/* Main */
+
+    /* article */
+.article_previews {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.article_previews article{
+    width: 450px;
+    border: 5px solid black;
+}
+
+.article_previews figcaption {
+    display: flex;
+}
+
+    /* End Section */
+
+    /* Calendar */
+.calendar_container {
+    margin-top: 80px;
+}
+
+.calendar_container table { 
+    margin: 0 auto;
+    border: 10px solid black;
+    width: auto;
+
+}
+
+.calendar_container .calendar_title {
+    font-size: 100px;
+}
+
+.calendar_container .calendar_month {
+    font-size: 40px;
+}
+
+.calendar_container .calendar_week {
+    font-size: 30px;
+    background-color: red;
+}
+
+.calendar_container td {
+    font-size: 20px;
+    height: 150px;
+    width: 200px;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.calendar_container .calendar_next_month {
+    text-align: right;
+    vertical-align: bottom;
+}
+    /* End Calendar */
+/* End Main */
+
+/* End Body */

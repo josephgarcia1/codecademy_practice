@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+/* main div */
+#main_div {
+    display: inline-block;
+    width: calc(100% - 80px);  
+}
+
+    /* header */
+header {
+    height: 400px;
+    position: relative;
+}
+        /* bar */
+#bar {
+    text-align: center;
+    background-color: rgb(244,194,194);
+    padding: 20px 0;
+}
+
+#bar p {
+    margin: 0;
+}
+        /* end bar */
+        /* big_picture */
+#big_picture {
+    text-align: center;
+    height: 746px;
+    width: auto;
+    background: url("../images/banner_wallpaper.jpg");
+    background-size: cover;
+}
+h1 {
+    position: relative;
+    top: 300px;
+    margin: 0;
+}
+        /* end big_picture */
+    /* end header */
+
+    /* main */
+main {
+    position: relative;
+    top: 389px;
+    display: block;
+    margin: 60px;
+}
+        /* article previews */
+.article_previews {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.article_previews article{
+    width: 450px;
+    border: 5px solid black;
+}
+
+.article_previews figcaption {
+    display: flex;
+}
+        /* end article previews */
+    /* end main */
+/* end main div */
+
+/* nav */
+.sidebar {
+    z-index: 100;
+}
+nav {
+    display: inline-block;
+    height: 100%;
+    width: 80px;
+    background-color: blue;
+    text-align: center;
+    vertical-align: top;
+}
+.logo {
+    list-style-type: none;
+    padding: 0;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+/* end nav */
